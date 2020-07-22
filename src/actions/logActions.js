@@ -6,3 +6,15 @@ export const logEvents = () => (dispatch) => {
     payload: 'Logged',
   });
 };
+
+// export const get = () => async (dispatch) => {
+//   try {
+//     const res = await axios.get('');
+//     dispatch({
+//       type: ,
+//       payload: res.data,
+//     });
+//   } catch (error) {
+//     toast.error('error);
+//   }
+// };
